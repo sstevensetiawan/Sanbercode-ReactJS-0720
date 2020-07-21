@@ -1,0 +1,60 @@
+header{
+    background-color: white;
+    margin: -8px -8px 45px -8px;
+}
+
+body{
+    background-color: white;
+}
+
+
+#background{
+    background: url(../img/pattern.jpg);
+    background-color: white;
+}
+
+
+a.nav{
+    float: left;
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+#nav{
+    float: right;
+}
+
+section{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin: 45px -8px 0 -8px;
+    height: 60px;
+    position: relative;
+}
+
+h1{
+    text-align: center;
+}
+
+h5{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+p{
+    margin-left: 25px;
+}
+
+td{
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
