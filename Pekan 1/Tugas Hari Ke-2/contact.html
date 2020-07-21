@@ -5,57 +5,59 @@
         <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
     </head>
     <body>
-        <div>
-            <h1>Hubungi Kami</h1>
-            <b>Kantor</b> : di jalan belum jadi<br>
-            <b>Nomor Telepon</b> : 08XX-XXXX-XXXX<br>
-            <b>Email</b> : email@contoh.com
-        </div>
-        <div>
-            <h1>Kirimkan Pesan</h1>
-            <form>
-                <table>
-                    <tr>
-                        <td>
-                            <label for="nama_pengirim"><b>Nama</b></label>
-                        </td>
-                        <td>
-                            <input type="text" id="nama_pengirim">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="email_pengirim"><b>Email</b></label>
-                        </td>
-                        <td>
-                            <input type="text" id="email_pengirim">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="jk_pengirim"><b>Jenis Kelamin</b></label>
-                        </td>
-                        <td>
-                            <input type="radio" name="jk_pengirim" id="jk_pengirim" value="Laki-Laki" checked>Laki-Laki<br>
-                            <input type="radio" name="jk_pengirim" id="jk_pengirim" value="Perempuan">Perempuan
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="text_pengirim"><b>Pesan Anda</b></label>
-                        </td>
-                        <td>
-                            <textarea id="text_pengirim" rows="3" cols="50"></textarea>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <input type="submit" value="Kirim">
-                        </td>
-                    </tr>
-                </table>
-            </form>
-        </div>
-        <a href="index.html">Kembali ke Index</a>
+        <fieldset>
+            <div>
+                <h1>Hubungi Kami</h1>
+                <b>Kantor</b> : di jalan belum jadi<br>
+                <b>Nomor Telepon</b> : 08XX-XXXX-XXXX<br>
+                <b>Email</b> : email@contoh.com
+            </div>
+            <div>
+                <h1>Kirimkan Pesan</h1>
+                <form>
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="nama_pengirim"><b>Nama</b></label>
+                            </td>
+                            <td>
+                                <input type="text" id="nama_pengirim">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email_pengirim"><b>Email</b></label>
+                            </td>
+                            <td>
+                                <input type="text" id="email_pengirim">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="jk_pengirim"><b>Jenis Kelamin</b></label>
+                            </td>
+                            <td>
+                                <input type="radio" name="jk_pengirim" id="jk_pengirim" value="Laki-Laki" checked>Laki-Laki<br>
+                                <input type="radio" name="jk_pengirim" id="jk_pengirim" value="Perempuan">Perempuan
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="text_pengirim"><b>Pesan Anda</b></label>
+                            </td>
+                            <td>
+                                <textarea id="text_pengirim" rows="3" cols="50"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="submit" value="Kirim">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <a href="index.html">Kembali ke Index</a>
+        </fieldset>
     </body>
 </html>
