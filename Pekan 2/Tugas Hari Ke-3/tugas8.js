@@ -11,7 +11,7 @@ console.log("Keliling Lingkaran : " + kelilingLingkaran(7));
 
 //Soal 2
 let combineWord = (kata1,kata2,kata3,kata4,kata5) => { 
-    return `${kata1} ${kata3} ${kata3} ${kata4} ${kata5}`
+    return `${kata1} ${kata2} ${kata3} ${kata4} ${kata5}`
 };
 console.log(combineWord("saya","adalah","seorang","frontend","developer"))
 
